@@ -1,16 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
+import Header from './Header'
 
-import OptionList from './OptionList'
+import Option from './Option'
 
 const Main = () => {
     return (
         <Section>
-            <OptionList />
+            <Header />
+            <Option />
         </Section>
     )
 }
 
 export default Main
 const Section = styled.div`
-display: flex;`
+display: flex;
+flex-direction: column;`

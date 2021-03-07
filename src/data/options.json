@@ -1,0 +1,40 @@
+[
+    {
+        "img":"../images/options/008-steak.png",
+        "alt":"All",
+        "name":"All"
+    },
+
+    {
+        "img":"../images/options/029-burger.png",
+        "alt":"Burgers",
+        "name":"Burgers"
+    },
+
+    {
+        "img":"../images/options/007-pizza.png",
+        "alt":"Pizza",
+        "name":"Pizza"
+    },
+
+    {
+        "img":"../images/options/011-salad.png",
+        "alt":"Salads",
+        "name":"Salads"
+    },
+    {
+        "img":"../images/options/006-sushi.png",
+        "alt":"Sushi",
+        "name":"Sushi"
+    },
+    {
+        "img":"../images/options/015-cake.png",
+        "alt":"Desserts",
+        "name":"Desserts"
+    },
+    {
+        "img":"../images/options/soft-drink.png",
+        "alt":"Drinks",
+        "name":"Drinks"
+    }
+]

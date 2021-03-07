@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import { StaticImage } from 'gatsby-plugin-image';
-import { Translate } from '@material-ui/icons';
+
 const Widget = () => {
     return (
         <Wrapper>

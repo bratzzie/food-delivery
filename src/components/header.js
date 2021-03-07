@@ -1,42 +1,51 @@
-import * as React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
-
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+import React from 'react'
+import styled from 'styled-components'
+import SearchIcon from '@material-ui/icons/Search';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+const Header = () => {
+    return (
+        <Section>
+            <Title>Welcome to <br/>YummyFood <span role="img" aria-label="smile">😋</span></Title>
+            <SearchWrapper>
+                <SearchIcon style={{color: 'var(--secondly)'}}/>
+            </SearchWrapper>
+            <CartWrapper>
+                <ShoppingCartIcon style={{color: '#fff'}}/>
+            </CartWrapper>
+        </Section>
+    )
 }
 
 export default Header
+
+const Section = styled.div`
+padding:20px;
+padding-top: 60px;
+
+display :flex;
+align-items: baseline;
+justify-content: space-between;`
+
+const Title = styled.h1`
+letter-spacing: 1px;
+word-spacing: 1px;
+`
+
+const SearchWrapper = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #fff;
+width: 60px;
+height: 60px;
+border-radius: 20px;
+`
+
+const CartWrapper = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #1D2733;
+width: 60px;
+height: 60px;
+border-radius: 20px;`

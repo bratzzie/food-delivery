@@ -27,7 +27,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-
+padding-bottom: 20px;
 h3{
     font-weight: 700;
     text-align: center;
