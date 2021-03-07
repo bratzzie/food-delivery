@@ -24,4 +24,9 @@ const NabBar = () => {
 export default NabBar
 const Section = styled.section`
 flex: 0.1;
-padding: 60px 30px;`
+padding: 60px 30px;
+background-color: rgba(255, 255, 255, 0.26);
+border-radius: 60px;
+box-shadow: 10px 11px 10px -2px rgba(255,255,255,0.7) inset;
+-webkit-box-shadow: 10px 11px 10px -2px rgba(255,255,255,0.7) inset;
+-moz-box-shadow: 10px 11px 10px -2px rgba(255,255,255,0.7) inset;`

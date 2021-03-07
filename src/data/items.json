@@ -1,0 +1,47 @@
+[
+    {
+        "img":"../images/items/1.png",
+        "alt":"Pasta Bolognese",
+        "name":"Pasta Bolognese",
+        "desc":"Maecenas, Porta, Ipsum, Sit, Amet, Turpis",
+        "price":"8"
+    },
+
+    {
+        "img":"../images/items/2.png",
+        "alt":"Big Grill Burger",
+        "name":"Big Grill Burger",
+        "desc":"Sollicitudin, Eros, Malesuada, Erat, Gravida, Porta",
+        "price":"3.99"
+    },
+
+    {
+        "img":"../images/items/3.png",
+        "alt":"Indian Egg",
+        "name":"Indian Egg",
+        "desc":"Morbi, Tempor, Magna, Ornare, Purus, Molestie, Egestas, Laoreet",
+        "price":"8.45"
+    },
+
+    {
+        "img":"../images/items/4.png",
+        "alt":"Spring Salad",
+        "name":"Spring Salad",
+        "desc":"Aliquam, Ut, Hendrerit, Enim, Quis, Scelerisque, Sapien",
+        "price":"9.55"
+    },
+    {
+        "img":"../images/items/5.png",
+        "alt":"LoveU Tiramisu",
+        "name":"LoveU Tiramisu",
+        "desc":"Nulla, Dignissim, Nibh, Placerat, Ornare, Pellentesque, Mauris, Nibh, Aliquam, Molestie",
+        "price":"6"
+    },
+    {
+        "img":"../images/items/6.png",
+        "alt":"Vegetarian Italian Pizza",
+        "name":"Vegetarian Italian Pizza",
+        "desc":"Liquam, Ultrices, Purus, Rutrum, Imperdiet, Aenean, Velit, Leo, Interdum, Vestibulum, Vitae, Sit, Amet",
+        "price":"10.99"
+    }
+]

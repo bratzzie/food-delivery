@@ -68,6 +68,7 @@ margin: 10px;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
+cursor: pointer;
 `
 
 const OptionUpper = styled.div``

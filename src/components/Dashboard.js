@@ -4,11 +4,13 @@ import Main from './Main'
 import NabBar from './NabBar'
 
 import styled from  'styled-components'
+import RightNav from './RightNav'
 const Dashboard = () => {
     return (
         <Dash>
             <NabBar />
             <Main />
+            <RightNav />
         </Dash>
     )
 }
