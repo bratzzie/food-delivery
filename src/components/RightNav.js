@@ -16,4 +16,5 @@ const RightNav = () => {
 export default RightNav
 const Section = styled.section`
   flex-direction: column;
+  transform: scale(0.8);
 `

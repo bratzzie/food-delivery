@@ -11,8 +11,8 @@ const Sale = () => {
           alt="Hot-Dog"
           placeholder="blurred"
           layout="fixed"
-          width={170}
-          height={170}
+          width={150}
+          height={150}
           style={{
             marginLeft: 200,
             marginTop: -70,
@@ -29,14 +29,14 @@ const Sale = () => {
 
 export default Sale
 const Wrapper = styled.div`
-  width: 400px;
-  height: 220px;
+  width: 350px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   background-color: #9095c4;
   border-radius: 25px;
   padding: 10px 30px;
-
+  cursor: pointer;
   h1 {
     color: #fff;
     transform: translateY(-20px);
@@ -46,6 +46,7 @@ const Wrapper = styled.div`
     transform: translateY(-30px);
     word-spacing: 1px;
     letter-spacing: 1px;
+    font-size: 25px;
   }
 `
 const Row = styled.div`

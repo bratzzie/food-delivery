@@ -66,19 +66,23 @@ const Section = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 50px;
 `
 
 const IconImg = styled(Img)`
-  display: block;
-  height: 100%;
-  max-width: 100%;
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
   transform: scale(0.7);
 `
 const Row = styled.div`
+  display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 10px 30px;
+
+  h3 {
+    font-size: 35px;
+    letter-spacing: 1px;
+  }
 `
 
 const IconWrapper = styled.div`
@@ -89,16 +93,25 @@ const IconWrapper = styled.div`
   width: 50px;
   height: 50px;
   border-radius: 20px;
+  cursor: pointer;
 `
 
 const Article = styled.div`
+  display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 20px;
 `
 const ImgWrapper = styled.div`
   background-color: #aef99d;
   border-radius: 30px;
-  height: 100px;
-  width: 100px;
+  height: 80px !important;
+  width: 80px !important;
+  margin-right: 15px;
 `
 
-const Title = styled.h3``
+const Title = styled.h3`
+  font-size: 18px;
+`

@@ -58,10 +58,11 @@ export default Option
 const OptionList = styled.div`
 display: flex;
 flex-direction: row;
+
 `
 const OptionCard = styled.div`
-width: 130px;
-height: 200px;
+width: 80px;
+height: 120px;
 background-color: #D7E5E3;
 border-radius: 65px;
 margin: 10px;
@@ -71,7 +72,8 @@ justify-content: space-evenly;
 cursor: pointer;
 `
 
-const OptionUpper = styled.div``
+const OptionUpper = styled.div`
+transform: translateY(10px);`
 const OptionImg = styled(Img)`
 display: block;
 height: 100%;
@@ -81,7 +83,7 @@ margin-right: auto;
 margin-left: auto;
 `
 const OptionTitle = styled.h2`
-
+transform: translateY(10px);
 text-align: center;
 color: var(--secondly);
-font-size: 20px;`
+font-size: 15px;`

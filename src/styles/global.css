@@ -10,6 +10,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: "Source Sans Pro", sans-serif !important;
   background: #acb6e5; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -21,4 +23,7 @@ body {
     #86fde8,
     #acb6e5
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }

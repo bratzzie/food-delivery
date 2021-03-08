@@ -42,7 +42,7 @@ flex-direction: row;
 justify-content: flex-start;
 align-items: baseline;
 h1{
-    font-size: 35px;
+    font-size: 30px;
     padding-right: 35px;
 }
 h4{

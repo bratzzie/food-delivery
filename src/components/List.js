@@ -79,16 +79,18 @@ margin-top: 60px;
 `
 const ItemCard = styled.div`
 
-width: 300px;
+width: 250px;
 height: auto;
 background-color: transparent;
 border: 2px solid var(--secondly);
 border-radius: 45px;
-margin: 30px 20px;
+margin: 30px 15px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-cursor: pointer;`
+cursor: pointer;
+
+`
 
 const ItemUpper = styled.div`
 margin-top: -70px;`
@@ -96,7 +98,7 @@ margin-top: -70px;`
 const ItemImg = styled(Img)`
 display: block;
 height: 100%;
-max-width: 90%;
+max-width: 70%;
 position: relative;
 margin-right: auto;
 margin-left: auto;`
@@ -105,15 +107,17 @@ const ItemBottom = styled.div`
 padding: 0 25px;
 `
 
-const ItemTitle = styled.h3``
+const ItemTitle = styled.h3`
+font-size: 25px;`
 
 const ItemDesc = styled.p`
-color: var(--primary);
-
+color: var(--secondly);
+font-size: 15px;
 `
 
 const ItemPrice = styled.h2`
-text-align: left;`
+text-align: left;
+font-size: 25px;`
 
 const Row = styled.div`
 display: flex;

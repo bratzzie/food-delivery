@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 
 import "./layout.css"
 import '../styles/global.css'
-
+import 'fontsource-source-sans-pro'
 const Layout = ({ children }) => {
   return (
     <>

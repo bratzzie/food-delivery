@@ -12,8 +12,8 @@ const Widget = () => {
                 alt="Order"
                 placeholder="blurred"
                 layout="fixed"
-                width={200}
-                height={200}
+                width={150}
+                height={150}
                 style={{borderRadius: 20}}
                 />
             </UpperContainer>
@@ -22,7 +22,8 @@ const Widget = () => {
                   <h1>Faster delivery!</h1>
                 <Row>
                     <h4>Learn more</h4>
-                    <ArrowForwardIcon />
+                    <ArrowForwardIcon
+                    style={{cursor: 'pointer'}} />
                 </Row>
             </BottomContainer>
         </Wrapper>
@@ -36,8 +37,8 @@ display: flex;
 flex-direction: column;
 background-color: #fff;
 border-radius: 30px;
-width: 300px;
-height: 300px;
+width: 200px;
+height: 200px;
 padding: 25px;
 margin-top: 80px;
 
@@ -45,11 +46,16 @@ margin-top: 80px;
 const UpperContainer = styled.div`
 margin-top: -120px;`
 const BottomContainer = styled.div`
+h1{
+    font-size: 25px;
+}
 padding-top: 20px;`
 const Row = styled.div`
 flex-direction: row;
 display: flex;
+transform: translateY(-10px);
 h4{
-    padding-right: 50%;
+    padding-right: 30%;
+    font-size: 15px;
 }
 `
