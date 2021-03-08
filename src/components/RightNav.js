@@ -1,13 +1,19 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react"
+import styled from "styled-components"
+
+import Articles from "./Articles"
+import Sale from "./Sale"
 
 const RightNav = () => {
-    return (
-        <Section>
-            <h1>Right NavBar</h1>
-        </Section>
-    )
+  return (
+    <Section>
+      <Sale />
+      <Articles />
+    </Section>
+  )
 }
 
 export default RightNav
-const Section = styled.section``
+const Section = styled.section`
+  flex-direction: column;
+`

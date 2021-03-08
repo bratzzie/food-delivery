@@ -1,0 +1,25 @@
+[
+    {
+        "img":"../images/articles/burger.png",
+        "alt":"Burger",
+        "name":"Ordering food delivery illustration by Maria Shukshina from Icons8"
+    },
+
+    {
+        "img":"../images/articles/icecream.png",
+        "alt":"IceCream",
+        "name":"Beverages Icon Pack is mady by Freepik"
+    },
+
+    {
+        "img":"../images/articles/leg.png",
+        "alt":"Leg",
+        "name":"Instagram Highlights Stories Food Icon Pack is made by Freepik"
+    },
+    {
+        "img":"../images/articles/taco.png",
+        "alt":"Taco",
+        "name":" Quisque tristique lectus eu purus eleifend, id bibendum dolor auctor"
+    }
+]
+

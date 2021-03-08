@@ -28,10 +28,10 @@ const Option = () => {
       `);
 
       
-function getTrips(data){
-    const tripsArray = [];
+function getOptions(data){
+    const optionsArray = [];
     data.allOptionsJson.edges.forEach( (item, index)=> {
-        tripsArray.push(
+        optionsArray.push(
             <OptionCard key={index}>
                 <OptionUpper>
                     <OptionImg src={item.node.img.childImageSharp.fluid.src}
@@ -45,11 +45,11 @@ function getTrips(data){
         )
     });
 
-    return tripsArray;
+    return optionsArray;
 }
 
     return (
-        <OptionList>{getTrips(data)}
+        <OptionList>{getOptions(data)}
     </OptionList>
     )
 }

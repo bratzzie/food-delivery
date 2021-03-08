@@ -30,10 +30,10 @@ const List = () => {
 
 
       
-      function getTrips(data){
-        const tripsArray = [];
+      function getItems(data){
+        const itemsArray = [];
         data.allItemsJson.edges.forEach( (item, index)=> {
-            tripsArray.push(
+            itemsArray.push(
                 <ItemCard key={index}>
                     <ItemUpper>
                         <ItemImg src={item.node.img.childImageSharp.fluid.src}
@@ -59,12 +59,12 @@ const List = () => {
             )
         });
     
-        return tripsArray;
+        return itemsArray;
     }
 
     
     return (
-        <ListSection>{getTrips(data)}
+        <ListSection>{getItems(data)}
     </ListSection>
     )
 }
